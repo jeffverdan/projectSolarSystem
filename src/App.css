@@ -1,0 +1,67 @@
+body {
+  background-image: url('./images/background.png');
+  color: white;
+  text-align: center;
+  
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  color: rgb(0, 255, 55);  
+  padding: 5px;
+  margin: 15px;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;  
+  padding: 5px;
+  background-color: rgb(65, 65, 65);
+  border: inset gray
+}
+
+[ data-testid="planet-card" ] {
+  display: inline-block;  
+  justify-content: space-evenly;
+  margin-left : 20px;
+  align-items: center;      
+  width: auto;
+}
+
+img {
+  width: 200px;
+}
+
+[data-testid="missions"]{
+  justify-content: space-evenly;
+}
+
+[data-testid="mission-card"] {
+  margin-top: 5px;
+  text-align: left;
+  color: white;
+}
+
+.mission {  
+  border: solid green;  
+  background-color: rgb(36, 36, 36);
+  display: inline-block;    
+  margin: 20px 15px;
+  vertical-align: middle;   
+  width: 220px;
+  height: 200px;    
+}
+
+[data-testid="mission-name"] {
+  list-style: none;
+  color: forestgreen;
+  font-weight: bold;
+  margin-left: 0;
+  text-transform: uppercase;  
+}
+
